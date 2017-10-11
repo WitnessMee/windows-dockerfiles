@@ -1,5 +1,5 @@
-# Build: docker build -t esko/nginx .
-# Run:   docker run -d -p 80:80 -p 443:443 nginx_proxy esko/nginx
+# Build: docker build -t mycompany/nginx .
+# Run:   docker run -d -p 80:80 -p 443:443 nginx_proxy mycompany/nginx
 FROM microsoft/windowsservercore
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
